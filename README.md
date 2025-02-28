@@ -1,8 +1,19 @@
+# Research Experience
+
+### Using Large Language Models to Analyze Memory | Dr. James Anthony
+Research Assistant | Jan 2025 - Present 
+-	Study participants were shown non-linear movie Memento and asked to freely recall information, responses were manually transcribed by research assistants into an excel sheet with a corresponding scene number being recalled, results were analyzed into various graphs and compared against ideal templates to see whether semantic, chronological, causal, or temporal memory recall was strongest
+-	Familiarized self with completed research and theories in tensors, sentence encoders, and LLMS    
+-	Contributed to research-level codebase working with matrixes and plots in Numpy and Matplotlib libraries
+    -	Grouped sentences in a participant’s response according to provided scene numbers from sheet through Pandas and produced sentence embeddings of each group and the movie script (grouped by scene number) using TensorFlow
+    -	Applied cosine similarities to the sentence embeddings of the two to calculate how accurate the manually tagged scene numbers are. 
+
+-	Working towards replacing manually tagging responses to scene numbers with using cosine similarities on sentence embeddings of a sentence of a participant’s response and the script’s sentence embeddings to find which scene number the participant is most likely recalling, the strongest r-value match between the two embeddings will indicate the most-likely recalled scene number.
+
+
 # My Projects
-my personal website
 
 ### FoodFlow ([preview](https://www.figma.com/proto/kFwNKAbGFcDzhaic6yJtA1/NewFigmaHackathonW24?t=lJEYJWBrMNwQNvBr-1&node-id=0-940&starting-point-node-id=0%3A888))
-
 Figma, Swagger, Spoonacular API, Tableau, Python                                            ‎                            | Jan 24, 2025 - Present  
 -	a UI design purposed during PolyHacks 2025 to assist the Cal Poly food pantry in tracking stock levels, recommending recipes based on availability, and queue time monitoring
 -	Hackathon entry for PolyHacks 2025, won “Best Demonstration” 
@@ -17,10 +28,18 @@ C, VS Code, Valgrind, GDB                   | Oct 1 - Oct 21, 2024
 
 ### 2D Platformer ([link](https://editor.p5js.org/Willwrum/full/jkZAA0YGr))               
 p5js, JSON                                           | Oct 18 – Dec 10, 2023                    
-- In a team of 5, created a platformer. My work centered around mechanics of collisions, gravity, and movement of sprites	
-Employed playtest feedback in development and produced a technical report on design process
+Created a game with an interactive menu and two levels in a team of 5  | Oct 19 - Dec 15, 2023                    
+- Emulated a proper game physics with imitated gravity, forces and momentum in addition to hitboxes, 
+collisions, and ‘killblocks’
+- Split movement and collisions into indepedent vertical and horizontal components to avoid phasing through the side of platforms  
+- Utilized object-oriented programming in creation of platforms and game map for infinite scaling potential 
+- Skills Acquired: 
+- Avoided hard-code as it leads to bugs in development and coded with development in mind 
+- Debugged a LOT of bugs 
+- Employed a feedback loop of new content>discovering bugs>solving bugs>implementing feedback.  
 
-### Downloader
+### Downloader 
+C | 31 Oct - Nov 10, 2024
 - Replicated UNIX curl command to curl from a .txt file with multiple items to download
 - Forked processes to handle x downloads at a time
 
