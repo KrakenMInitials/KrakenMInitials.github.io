@@ -13,11 +13,23 @@ Research Assistant | Jan 2025 - Present
 
 # My Projects
 
-### FoodFlow ([preview](https://www.figma.com/proto/kFwNKAbGFcDzhaic6yJtA1/NewFigmaHackathonW24?t=lJEYJWBrMNwQNvBr-1&node-id=0-940&starting-point-node-id=0%3A888))
-Figma, Swagger, Spoonacular API, Tableau, Python                                            ‎                            | Jan 24, 2025 - Present  
+### FoodFlow ([UI](https://www.figma.com/proto/kFwNKAbGFcDzhaic6yJtA1/NewFigmaHackathonW24?t=lJEYJWBrMNwQNvBr-1&node-id=0-940&starting-point-node-id=0%3A888)) ([backend](https://github.com/suesuee/FoodFlow))
+Figma, Spoonacular API, Tableau, Python                                            ‎                            | Jan 24, 2025 - Present  
 -	a UI design purposed during PolyHacks 2025 to assist the Cal Poly food pantry in tracking stock levels, recommending recipes based on availability, and queue time monitoring
--	Hackathon entry for PolyHacks 2025, won “Best Demonstration” 
--	Played a major role in UI design of the project through Figma 
+•	60-hour hackathon entry for PolyHacks 2025, won “Best Demo” 
+•	Contributed heavily to UI design through Fall Q24’ Figma workshop experience
+•	Learned that working towards a common goal with the right people boosts my productivity significantly
+
+
+### 2D Platformer ([game](https://editor.p5js.org/KrakenM/full/Q5i-It2eU))([code](https://editor.p5js.org/KrakenM/sketches/Q5i-It2eU))               
+p5js, JSON                                           | Oct 18 – Dec 10, 2023                    
+Created a game with an interactive menu and two levels in a team of 5  | Oct 19 - Dec 15, 2023                    
+- Worked on movement, collision and hitbox mechanics based heavily on complex geometry, coordinates and ‘forces’, essentially replicating a physics engine from prior knowledge of game design and physics
+     - Player movement moves the camera and environment along x-cord; player model kept stationary
+     - Jumping/gravity modifies player model’s y-cord
+     - Resulted in smooth controls and unique camera follow
+- Utilized object-oriented programming in creating of platforms and game map for infinite scaling potential 
+- Employed a feedback loop of new content>discovering bugs>solving bugs>implementing feedback.  
 
 ### Emulated UNIX file system in C 
 C, VS Code, Valgrind, GDB                   | Oct 1 - Oct 21, 2024                                                                  
@@ -25,18 +37,6 @@ C, VS Code, Valgrind, GDB                   | Oct 1 - Oct 21, 2024
 - String argument parsing/inodes and inode list/memory allocations/binary parsing/file access/file permissions    
 - Read/wrote inodes and file information on a binary level in C
 - Learned to solve memory leaks using Valgrind and debugging with GDB
-
-### 2D Platformer ([link](https://editor.p5js.org/Willwrum/full/jkZAA0YGr))               
-p5js, JSON                                           | Oct 18 – Dec 10, 2023                    
-Created a game with an interactive menu and two levels in a team of 5  | Oct 19 - Dec 15, 2023                    
-- Emulated a proper game physics with imitated gravity, forces and momentum in addition to hitboxes, 
-collisions, and ‘killblocks’
-- Split movement and collisions into indepedent vertical and horizontal components to avoid phasing through the side of platforms  
-- Utilized object-oriented programming in creation of platforms and game map for infinite scaling potential 
-- Skills Acquired: 
-- Avoided hard-code as it leads to bugs in development and coded with development in mind 
-- Debugged a LOT of bugs 
-- Employed a feedback loop of new content>discovering bugs>solving bugs>implementing feedback.  
 
 ### Downloader 
 C | 31 Oct - Nov 10, 2024
