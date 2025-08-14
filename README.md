@@ -13,6 +13,27 @@ Research Assistant | Jan 2025 - Present
 
 # My Projects
 
+## 💻 Networking Systems Projects
+
+### 🚀 P2P File Sharing System
+[GitHub Repo](https://github.com/KrakenMInitials/CSC364_Assignment4)  
+**Tech:** Python, TCP Sockets, File I/O, Protocol Design  
+Built a peer-to-peer file sharing system over TCP where peers advertise, request, and transfer files using a custom protocol.  
+✔️ Custom message types (Offer, Request, Transfer, Ack)  
+✔️ Central tracker server for peer discovery  
+✔️ Chunked file transfer with retransmissions and checksum-based file validation
+
+---
+
+### 🌐 TCP Congestion Control Simulator over UDP
+[GitHub Repo](https://github.com/KrakenMInitials/CSC364_Assignment3)  
+**Tech:** Python, UDP Sockets, RTT Simulation, Data Visualization  
+Simulated TCP-like file transfer over UDP to explore congestion control mechanisms.  
+✔️ Implements Slow Start, Congestion Avoidance, and Fast Retransmit  
+✔️ Simulates packet loss and visualizes cwnd vs. RTT under different network conditions  
+✔️ Custom packet format with checksums, ACKs, and timeouts
+
+
 ### FoodFlow ([UI](https://www.figma.com/proto/kFwNKAbGFcDzhaic6yJtA1/NewFigmaHackathonW24?t=lJEYJWBrMNwQNvBr-1&node-id=0-940&starting-point-node-id=0%3A888)) ([backend](https://github.com/suesuee/FoodFlow))
 Figma, Spoonacular API, Tableau, Python                                            ‎                            | Jan 24, 2025 - Present  
 -	a UI design purposed during PolyHacks 2025 to assist the Cal Poly food pantry in tracking stock levels, recommending recipes based on availability, and queue time monitoring
