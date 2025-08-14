@@ -1,3 +1,20 @@
+# Work Experience
+
+## 💼 DormMe Application, Internship  
+*Apr 2025 – Present*  
+**Tech:** Vertex AI, Google ADK, Firebase, Typesense, Google Maps/Places API, Python, Postman, Pydantic
+
+- Implemented vector search using Vertex AI embeddings in Firebase Functions to replace slow, GPT-based profile matching, improving scalability as user count exceeded 200  
+- Tested secured Google Cloud Run functions using Postman, Identity Tokens, and service accounts to debug and verify backend behavior during development  
+- Architected AI agents using Google ADK and Vertex AI Engine to support natural language queries about housing listings and roommate discovery via structured tools  
+- Built a property-specific assistant agent using ADK that answers questions about a housing listing and its neighborhood using session state and external APIs  
+- Integrated Google Places API via the `googlemaps` Python SDK to retrieve nearby amenities, businesses, and schools for location-based responses  
+- Bootstrapped agent session state from only `user_id` and `housing_id`, querying Typesense to populate housing data and simplify frontend integration  
+- Introduced Pydantic models to replace raw `dict` access when parsing Typesense documents, improving code structure and type safety  
+- Implemented schema validation to ensure Pydantic models stayed in sync with remote Typesense schemas, preventing field mismatches and reducing future integration risk  
+- Structured agent outputs for UI parsing by returning either conversational summaries or structured JSON depending on tool response context
+
+
 # Research Experience
 
 ### Using Large Language Models to Analyze Memory | Dr. James Anthony
@@ -32,6 +49,8 @@ Simulated TCP-like file transfer over UDP to explore congestion control mechanis
 ✔️ Implements Slow Start, Congestion Avoidance, and Fast Retransmit  
 ✔️ Simulates packet loss and visualizes cwnd vs. RTT under different network conditions  
 ✔️ Custom packet format with checksums, ACKs, and timeouts
+
+---
 
 
 ### FoodFlow ([UI](https://www.figma.com/proto/kFwNKAbGFcDzhaic6yJtA1/NewFigmaHackathonW24?t=lJEYJWBrMNwQNvBr-1&node-id=0-940&starting-point-node-id=0%3A888)) ([backend](https://github.com/suesuee/FoodFlow))
